@@ -1,0 +1,12 @@
+.container {
+	display: flex;
+}
+.display {
+	width: 100px;
+}
+.button {
+	border: 1px solid #CCC;
+	padding: 2px;
+	cursor: pointer;
+	user-select: none;
+}
