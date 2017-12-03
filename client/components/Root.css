@@ -1,0 +1,27 @@
+.container {
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.header {
+	background-color: #037;
+	color: #FFF;
+	padding: 5px 10px 5px 10px;
+}
+.content {
+	flex-grow: 1;
+	padding: 20px;
+}
+.footer {
+	background-color: #037;
+	color: #FFF;
+	padding-top: 15px;
+	padding-bottom: 10px;
+	width: 100%;
+}
+.copyright {
+	padding: 5px;
+}
+.copyright a {
+	color: #FFF;
+}
