@@ -1,20 +1,20 @@
 const connect = require("react-redux").connect
-const increment = require("../actions").increment
-const Counter = require("../components/Counter.jsx")
+const reverseMessage = require("../../actions").reverseMessage
+const Hello = require("./Hello.jsx")
 
 // const mapStateToProps = (state) => ({
 // 	count: state.count
 // })
 const mapStateToProps = (state) => {
-	// console.log("Counter.js", state)
-	return state.counter
+	// console.log("Hello.js", state)
+	return state.hello
 }
 
 const mapDispatchToProps = {
-	increment: increment
+	reverseMessage: reverseMessage
 }
 
 module.exports = connect(
 	mapStateToProps,
 	mapDispatchToProps
-)(Counter)
+)(Hello)
